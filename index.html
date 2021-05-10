@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CODEWALLS</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="header">
+        <div id="logo">
+            CODEWALLS
+        </div>
+        <div id="imgLogo">
+            <img id="image" src="logo.png">
+        </div>
+        <div id="buttonContainer">
+            <div class="toggleButton active" id="html">HTML</div>
+            <div class="toggleButton" id="css">CSS</div>
+            <div class="toggleButton" id="js">JS</div>
+            <div class="toggleButton active" id="output">OUTPUT</div>
+        </div>
+    </div>
+    <div id="bodyContainer">
+        <textarea id="htmlPanel" class="panel"><p id="paragraph">Welcome to CODEWALLS</p></textarea>
+        <textarea id="cssPanel" class="panel hidden"></textarea>
+        <textarea id="jsPanel" class="panel hidden"></textarea>
+        <iframe id="outputPanel" class="panel"></iframe>
+    </div>
+    <script type="text/javascript" src="style.js"></script>
+</body>
+
+</html>
